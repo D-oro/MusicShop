@@ -1,21 +1,12 @@
-public class Instrument extends StockItem implements ISell, IPlay{
+public abstract class Instrument extends StockItem {
     private String colour;
     private String material;
     private String type;
 
-    public Instrument(double acquisitionPrice, double sellingPrice) {
+    public Instrument(double acquisitionPrice, double sellingPrice, String colour, String material, String type) {
         super(acquisitionPrice, sellingPrice);
         this.colour = colour;
         this.material = material;
         this.type = type;
-    }
-
-    public double calculateMarkup(Instrument instrument) {
-
-        return instrument.getSellingPrice() - instrument.getAcquisitionPrice();
-    }
-
-    public String play(Instrument instrument){
-        return "Woohoo I'm playing the " + instrument;
     }
 }

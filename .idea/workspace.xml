@@ -4,16 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3556fca9-0ee8-4140-b5bd-2b21bc0f4577" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/IPlay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ISell.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Instrument.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/StockItem.java" afterDir="false" />
+    <list default="true" id="3556fca9-0ee8-4140-b5bd-2b21bc0f4577" name="Changes" comment="first commit, half of the setup done">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Guitar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/HowToManual.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Piano.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SheetMusic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Shop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/GuitarTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PianoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ShopTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/IPlay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/IPlay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ISell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ISell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Instrument.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Instrument.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/StockItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StockItem.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +28,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -49,6 +54,67 @@
     "settings.editor.selected.configurable": "editor.preferences.import"
   }
 }]]></component>
+  <component name="RunManager" selected="JUnit.ShopTest.canGetTotalPotentialProfit">
+    <configuration name="GuitarTest.canPlay" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MusicShop" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GuitarTest" />
+      <option name="METHOD_NAME" value="canPlay" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShopTest.canAddItemsToStick" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MusicShop" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ShopTest" />
+      <option name="METHOD_NAME" value="canAddItemsToStick" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShopTest.canGetTotalPotentialProfit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MusicShop" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ShopTest" />
+      <option name="METHOD_NAME" value="canGetTotalPotentialProfit" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShopTest.canRemoveItemsFromStock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MusicShop" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ShopTest" />
+      <option name="METHOD_NAME" value="canRemoveItemsFromStock" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShopTest.stockStartsAtZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MusicShop" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ShopTest" />
+      <option name="METHOD_NAME" value="stockStartsAtZero" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ShopTest.canGetTotalPotentialProfit" />
+        <item itemvalue="JUnit.ShopTest.canRemoveItemsFromStock" />
+        <item itemvalue="JUnit.ShopTest.canAddItemsToStick" />
+        <item itemvalue="JUnit.ShopTest.stockStartsAtZero" />
+        <item itemvalue="JUnit.GuitarTest.canPlay" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -58,6 +124,14 @@
       <option name="presentableId" value="Default" />
       <updated>1664614470945</updated>
     </task>
+    <task id="LOCAL-00001" summary="first commit, half of the setup done">
+      <created>1664616087910</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1664616087910</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -70,5 +144,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit, half of the setup done" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit, half of the setup done" />
   </component>
 </project>

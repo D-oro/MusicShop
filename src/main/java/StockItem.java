@@ -1,10 +1,14 @@
-public abstract class StockItem {
+public abstract class StockItem implements ISell {
     private double acquisitionPrice;
     private double sellingPrice;
 
     public StockItem(double acquisitionPrice, double sellingPrice){
         this.acquisitionPrice = acquisitionPrice;
         this.sellingPrice = sellingPrice;
+    }
+
+    public double calculateMarkup(){
+        return sellingPrice - acquisitionPrice;
     }
 
     public double getAcquisitionPrice() {

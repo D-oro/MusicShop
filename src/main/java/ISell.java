@@ -1,4 +1,4 @@
 public interface ISell {
-    public boolean calculateMarkup(Instrument instrument);
+    public double calculateMarkup();
 
 }
