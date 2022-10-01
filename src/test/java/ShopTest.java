@@ -1,6 +1,5 @@
 import org.junit.Before;
 import org.junit.Test;
-
 import static org.junit.Assert.assertEquals;
 
 public class ShopTest {
@@ -19,8 +18,8 @@ public class ShopTest {
         shop = new Shop();
         howtomanual = new HowToManual(4, 20, "beginner");
         sheetmusic = new SheetMusic(3, 10, "Beethoven", "Moonlight Sonata");
-        piano = new Piano(5000,7000, "black", "wood", "string instrument", "Yamaha" );
-        guitar = new Guitar(300,500, "brown", "wood", "string instrument", "western");
+        piano = new Piano(5000,7000, "black", "wood", Type.PERCUSSION, Type.STRING,"Yamaha" );
+        guitar = new Guitar(300,500, "brown", "wood", Type.STRING, "western");
     }
     // 16 + 7 + 2000 + 200 = 2223
     @Test

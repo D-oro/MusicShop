@@ -6,4 +6,12 @@ public class HowToManual extends StockItem {
         super(acquisitionPrice, sellingPrice);
         this.difficultyLevel = difficultyLevel;
     }
+
+    public String getDifficultyLevel() {
+        return difficultyLevel;
+    }
+
+    public void setDifficultyLevel(String difficultyLevel) {
+        this.difficultyLevel = difficultyLevel;
+    }
 }

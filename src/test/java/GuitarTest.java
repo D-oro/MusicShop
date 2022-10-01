@@ -9,13 +9,19 @@ public class GuitarTest {
 
         @Before
         public void before(){
-            guitar = new Guitar(300,500, "brown", "wood", "string instrument", "western");
+            guitar = new Guitar(300,500, "brown", "wood", Type.STRING, "western");
         }
 
         @Test
         public void canCalculateMarkup(){
             assertEquals(200, guitar.calculateMarkup(), 1e-3 );
         }
+
+        @Test
+        public void canGetTypeAsString(){
+        assertEquals("string", guitar.getTypeAsString());
+    }
+
 
         @Test
         public void canPlay(){
