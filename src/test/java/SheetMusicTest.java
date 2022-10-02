@@ -7,7 +7,7 @@ public class SheetMusicTest {
 
     @Before
     public void before(){
-        sheetmusic = new SheetMusic(3, 10, "Beethoven", "Moonlight Sonata");
+        sheetmusic = new SheetMusic("sheetmusic",3, 10, "Beethoven", "Moonlight Sonata");
     }
 
     @Test

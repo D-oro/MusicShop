@@ -8,6 +8,7 @@ public class Shop {
         this.stock = new ArrayList<StockItem>();
     }
 
+
     public double getTotalPotentialProfit(){
         double profit = 0;
         for (StockItem item : stock){

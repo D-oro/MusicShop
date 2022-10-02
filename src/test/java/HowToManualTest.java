@@ -9,7 +9,7 @@ public class HowToManualTest {
 
     @Before
     public void before(){
-        howtomanual = new HowToManual(4, 20, "beginner");
+        howtomanual = new HowToManual("howtomanual", 4, 20, "beginner");
     }
 
     @Test

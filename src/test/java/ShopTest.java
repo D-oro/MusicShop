@@ -16,11 +16,13 @@ public class ShopTest {
     @Before
     public void before(){
         shop = new Shop();
-        howtomanual = new HowToManual(4, 20, "beginner");
-        sheetmusic = new SheetMusic(3, 10, "Beethoven", "Moonlight Sonata");
-        piano = new Piano(5000,7000, "black", "wood", Type.PERCUSSION, Type.STRING,"Yamaha" );
-        guitar = new Guitar(300,500, "brown", "wood", Type.STRING, "western");
+        howtomanual = new HowToManual("howtomanual", 4, 20, "beginner");
+        sheetmusic = new SheetMusic("sheetmusic", 3, 10, "Beethoven", "Moonlight Sonata");
+        piano = new Piano("piano", 5000,7000, "black", "wood", Type.PERCUSSION, Type.STRING,"Yamaha" );
+        guitar = new Guitar("guitar", 300,500, "brown", "wood", Type.STRING, "western");
     }
+
+
     // 16 + 7 + 2000 + 200 = 2223
     @Test
     public void canGetTotalPotentialProfit(){
@@ -29,7 +31,6 @@ public class ShopTest {
         shop.addItemToStock(howtomanual);
         shop.addItemToStock(sheetmusic);
         assertEquals(2223, shop.getTotalPotentialProfit(), 1e-3);
-
     }
 
     @Test

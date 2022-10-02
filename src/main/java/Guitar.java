@@ -2,8 +2,8 @@ public class Guitar extends Instrument implements IPlay {
 
     private String subtype;
 
-    public Guitar (double acquisitionPrice, double sellingPrice,String colour, String material, Type type, String subtype) {
-        super(acquisitionPrice, sellingPrice, colour, material, type);
+    public Guitar (String itemName, double acquisitionPrice, double sellingPrice,String colour, String material, Type type, String subtype) {
+        super(itemName, acquisitionPrice, sellingPrice, colour, material, type);
         this.subtype = subtype;
     }
 

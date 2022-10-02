@@ -4,18 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3556fca9-0ee8-4140-b5bd-2b21bc0f4577" name="Changes" comment="MVP and first extension done">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Type.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/HowToManualTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SheetMusicTest.java" afterDir="false" />
+    <list default="true" id="3556fca9-0ee8-4140-b5bd-2b21bc0f4577" name="Changes" comment="completed all Extensions. gave piano a second enum Type because a piano is both a string instrument and a percussion instrument, and I'm a nerd.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OnlineStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CustomerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/OnlineStoreTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Guitar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Guitar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/HowToManual.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HowToManual.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Instrument.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Instrument.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Piano.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Piano.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/SheetMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SheetMusic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Shop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Shop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/StockItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StockItem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/GuitarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GuitarTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/HowToManualTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HowToManualTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/PianoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PianoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SheetMusicTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SheetMusicTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ShopTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ShopTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,59 +51,59 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "settings.editor.selected.configurable": "editor.preferences.import"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.import&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="JUnit.PianoTest.canChangeSellingPrive">
-    <configuration name="HowToManualTest.canGetDifficultyLevel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+}</component>
+  <component name="RunManager" selected="JUnit.OnlineStoreTest.canFindNumberByCustomerName">
+    <configuration name="CustomerTest.canRemoveItemsFromBasket" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MusicShop" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="HowToManualTest" />
-      <option name="METHOD_NAME" value="canGetDifficultyLevel" />
+      <option name="MAIN_CLASS_NAME" value="CustomerTest" />
+      <option name="METHOD_NAME" value="canRemoveItemsFromBasket" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HowToManualTest.canSetDifficultyLevel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CustomerTest.getBasketAsString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MusicShop" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="HowToManualTest" />
-      <option name="METHOD_NAME" value="canSetDifficultyLevel" />
+      <option name="MAIN_CLASS_NAME" value="CustomerTest" />
+      <option name="METHOD_NAME" value="getBasketAsString" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PianoTest.canChangeSellingPrive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OnlineStoreTest.canFindNumberByCustomerName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MusicShop" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PianoTest" />
-      <option name="METHOD_NAME" value="canChangeSellingPrive" />
+      <option name="MAIN_CLASS_NAME" value="OnlineStoreTest" />
+      <option name="METHOD_NAME" value="canFindNumberByCustomerName" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SheetMusicTest.canChangeComposer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OnlineStoreTest.getBasketAsString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MusicShop" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SheetMusicTest" />
-      <option name="METHOD_NAME" value="canChangeComposer" />
+      <option name="MAIN_CLASS_NAME" value="OnlineStoreTest" />
+      <option name="METHOD_NAME" value="getBasketAsString" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SheetMusicTest.canChangeTitle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ShopTest.canFindNumberByCustomerName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MusicShop" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SheetMusicTest" />
-      <option name="METHOD_NAME" value="canChangeTitle" />
+      <option name="MAIN_CLASS_NAME" value="ShopTest" />
+      <option name="METHOD_NAME" value="canFindNumberByCustomerName" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -106,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PianoTest.canChangeSellingPrive" />
-        <item itemvalue="JUnit.SheetMusicTest.canChangeComposer" />
-        <item itemvalue="JUnit.SheetMusicTest.canChangeTitle" />
-        <item itemvalue="JUnit.HowToManualTest.canSetDifficultyLevel" />
-        <item itemvalue="JUnit.HowToManualTest.canGetDifficultyLevel" />
+        <item itemvalue="JUnit.OnlineStoreTest.canFindNumberByCustomerName" />
+        <item itemvalue="JUnit.CustomerTest.canRemoveItemsFromBasket" />
+        <item itemvalue="JUnit.CustomerTest.getBasketAsString" />
+        <item itemvalue="JUnit.OnlineStoreTest.getBasketAsString" />
+        <item itemvalue="JUnit.ShopTest.canFindNumberByCustomerName" />
       </list>
     </recent_temporary>
   </component>
@@ -137,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664628792435</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="completed all Extensions. gave piano a second enum Type because a piano is both a string instrument and a percussion instrument, and I'm a nerd.">
+      <created>1664632647793</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1664632647793</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -154,6 +166,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit, half of the setup done" />
     <MESSAGE value="MVP and first extension done" />
-    <option name="LAST_COMMIT_MESSAGE" value="MVP and first extension done" />
+    <MESSAGE value="completed all Extensions. gave piano a second enum Type because a piano is both a string instrument and a percussion instrument, and I'm a nerd." />
+    <option name="LAST_COMMIT_MESSAGE" value="completed all Extensions. gave piano a second enum Type because a piano is both a string instrument and a percussion instrument, and I'm a nerd." />
   </component>
 </project>

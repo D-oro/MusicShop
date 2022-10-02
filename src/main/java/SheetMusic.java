@@ -3,8 +3,8 @@ public class SheetMusic extends StockItem{
     private String composer;
     private String title;
 
-    public SheetMusic(int acquisitionPrice, int sellingPrice, String composer, String title){
-        super(acquisitionPrice, sellingPrice);
+    public SheetMusic(String itemName, int acquisitionPrice, int sellingPrice, String composer, String title){
+        super(itemName, acquisitionPrice, sellingPrice);
         this.composer = composer;
         this.title = title;
     }

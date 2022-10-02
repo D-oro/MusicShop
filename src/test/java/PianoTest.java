@@ -8,7 +8,7 @@ public class PianoTest {
 
     @Before
     public void before(){
-        piano = new Piano(5000,7000, "black", "wood", Type.PERCUSSION, Type.STRING,"Yamaha" );
+        piano = new Piano("piano",5000,7000, "black", "wood", Type.PERCUSSION, Type.STRING,"Yamaha" );
     }
 
     @Test

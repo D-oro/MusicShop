@@ -3,8 +3,8 @@ public abstract class Instrument extends StockItem {
     private String material;
     private Type type;
 
-    public Instrument(double acquisitionPrice, double sellingPrice, String colour, String material, Type type) {
-        super(acquisitionPrice, sellingPrice);
+    public Instrument(String itemName, double acquisitionPrice, double sellingPrice, String colour, String material, Type type) {
+        super(itemName, acquisitionPrice, sellingPrice);
         this.colour = colour;
         this.material = material;
         this.type = type;

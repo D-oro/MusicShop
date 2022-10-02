@@ -2,8 +2,8 @@ public class HowToManual extends StockItem {
 
     public String difficultyLevel;
 
-    public HowToManual(double acquisitionPrice, double sellingPrice, String difficultyLevel) {
-        super(acquisitionPrice, sellingPrice);
+    public HowToManual(String itemName, double acquisitionPrice, double sellingPrice, String difficultyLevel) {
+        super(itemName, acquisitionPrice, sellingPrice);
         this.difficultyLevel = difficultyLevel;
     }
 
